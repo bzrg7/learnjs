@@ -1,7 +1,8 @@
 let elH1 = document.createElement('h1');
 let body = document.querySelector('body');
 let name = "Sanjar";
-let age = "19"
+let age = "19";
+let weight = "70";
 setTimeout(() => {
     elH1.innerText = "message from setTimeout";
     body.appendChild(elH1);
